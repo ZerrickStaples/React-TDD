@@ -19,5 +19,17 @@
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17",
     "react-test-render": "^1.1.1"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZerrickStaples/React-TDD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZerrickStaples/React-TDD/issues"
+  },
+  "homepage": "https://github.com/ZerrickStaples/React-TDD#readme"
 }
