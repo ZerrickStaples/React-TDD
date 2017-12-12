@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Gift from './Gift';
+import Gift from '../components/Gift';
 
 describe("Gift", () => {
     const gift = shallow(<Gift />);
@@ -10,6 +10,6 @@ describe("Gift", () => {
     });
 
     it("intializes a person and present in `state`", () => {
-        expect(gift.state()).toEqual({ person: '', preset: ''});
+        expect(gift.state()).toEqual({ person: '', present: ''});
     });
 });
