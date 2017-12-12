@@ -27,7 +27,16 @@ class App extends Component {
         return (
             <div>
                 <h2>Gift Giver</h2>
-                <button className = 'btn-add' onClick = { this.addGift }>Add Gift</button>
+                <div className = 'gift-list'>
+                {
+                    this.state.gifts.map(gift => {
+                        return(
+                            <div></div>
+                        )
+                    })
+                }
+                </div>
+                <Button className = 'btn-add' onClick = { this.addGift }>Add Gift</Button>
             </div>
         )
     }
