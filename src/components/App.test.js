@@ -17,3 +17,9 @@ it('adds a new gift to state when button is pressed', () => {
 
     expect(app.state().gifts).toEqual([{ id: 1 }]);
 })
+
+it('adds a new gift to rendered list when button is pressed', () => {
+    app.find('.btn-add').simulate('click');
+
+    expect(app.find('.gift-list').children().length).toEqual(2);
+})
