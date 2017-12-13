@@ -28,10 +28,10 @@ describe("Gift", () => {
         const present = '24K gold';
 
         beforeEach(()=>{
-            gift.find('.input-present').simulate('change',{ target: { value:'24K gold' } })
+            gift.find('.input-present').simulate('change',{ target: { value:'24K gold', } })
         })
         it("updates the present in state", () => {
-            expect(gift.state().person).toEqual(present);
+            expect(gift.state().present).toEqual(present);
         })
     })
 });
