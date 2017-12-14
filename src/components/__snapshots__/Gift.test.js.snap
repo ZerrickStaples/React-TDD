@@ -71,6 +71,17 @@ ShallowWrapper {
                     />
           </FormGroup>
 </Form>,
+        <Button
+          active={false}
+          block={false}
+          bsClass="btn"
+          bsStyle="default"
+          className="btn-rmv"
+          disabled={false}
+          onClick={[Function]}
+>
+          Remove Gift
+</Button>,
       ],
     },
     "ref": null,
@@ -239,6 +250,24 @@ ShallowWrapper {
         },
         "type": [Function],
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "active": false,
+          "block": false,
+          "bsClass": "btn",
+          "bsStyle": "default",
+          "children": "Remove Gift",
+          "className": "btn-rmv",
+          "disabled": false,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Remove Gift",
+        "type": [Function],
+      },
     ],
     "type": "div",
   },
@@ -295,6 +324,17 @@ ShallowWrapper {
                         />
             </FormGroup>
 </Form>,
+          <Button
+            active={false}
+            block={false}
+            bsClass="btn"
+            bsStyle="default"
+            className="btn-rmv"
+            disabled={false}
+            onClick={[Function]}
+>
+            Remove Gift
+</Button>,
         ],
       },
       "ref": null,
@@ -461,6 +501,24 @@ ShallowWrapper {
             ],
             "type": [Function],
           },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "active": false,
+            "block": false,
+            "bsClass": "btn",
+            "bsStyle": "default",
+            "children": "Remove Gift",
+            "className": "btn-rmv",
+            "disabled": false,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Remove Gift",
           "type": [Function],
         },
       ],

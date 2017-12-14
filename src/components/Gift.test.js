@@ -40,7 +40,7 @@ describe("Gift", () => {
 
     describe("when pressing the remove gift button", () => {
         beforeEach(() => {
-            app.find('.btn-rmv').simulate('click');
+            gift.find('.btn-rmv').simulate('click');
         });
         it("calls the removeGift callback", () => {
             expect(mockRemove).toHaveBeenCalledWith(id);
